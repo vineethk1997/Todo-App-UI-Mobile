@@ -1,0 +1,353 @@
+.first-container{
+    /* border:5px solid red; */
+    height: 100px;
+    /* margin-bottom: 50px; */
+    
+}
+.heading{
+    display: inline-block;
+}
+.first-left{
+  float: left;
+  margin-top: 190px;
+  margin-left: 140px;
+  font-size: 50px;
+
+}
+.first-right{
+  margin-top: 190px;
+  margin-right: 160px;
+  float: right;
+  font-size: 30px;
+
+}
+.parent-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: 180px;
+
+    
+}
+.box{
+    border: 3px solid red;
+    border-radius: 7px;
+    width: 200px;
+    height:250px;
+}
+.box1{
+    text-align: center;
+    color: red;
+}
+.box2{
+    text-align: center;
+    color: red;
+}
+.box3{
+    text-align: center;
+    color: red;
+}
+.box5{
+    width: 200px;
+    margin-left: 45%;
+    margin-top: 35px;
+}
+.trip-second{
+    margin-left: 50%;
+
+}
+.list-one{
+    border: 3px solid red;
+    border-radius: 10px;
+    z-index: 10;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    margin-right: 80%;
+    
+}
+.list-container{
+    filter: blur(9px);
+
+}
+.trip-third{
+    color:black; 
+    text-align: center; 
+    font-size: 45px;
+    position:relative;
+    max-width: 950px;
+}
+.trip-third:before{
+    content: "";
+    display:block;
+    width:120px;
+    height:3px;
+    position:absolute;
+    left: 190px;
+    top:50%;
+    background: #000;
+}
+.trip-third:after{
+    content: "";
+    display:block;
+    width:120px;
+    height:3px;
+    position:absolute;
+    right: 160px;
+    top:50%;
+    background: black;
+
+
+}
+.paris-container{
+    position: relative;
+}
+.box6{
+    position:absolute;
+    width: 155px;
+    bottom: 5px;
+}
+
+
+
+
+/* moto g-4 */
+@media screen and (min-width:300px) and (max-width:480px) {
+    
+    
+    
+    .first{
+        /* border:5px solid red; */
+        margin: 0px;
+
+        width: 320px;
+        /* margin-bottom: 50px; */
+        
+    }
+    .first-container{
+        width:350px;
+        padding-right: 10px;
+    }
+    .first-left{
+      
+        margin-left: 10px;
+    
+    }
+    .first-right{
+      width:40px;
+      height:40px;
+      margin-right: 10px;
+    
+    }
+    .card-body{
+        visibility: hidden;
+    }
+    .parent-container{
+    position: relative;
+    left: 0px;
+    flex-direction: column;
+    
+    width: 355px;
+    height: 560px;
+    
+        
+    }
+    .box{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        height: 40px;
+        width: 290px;
+        border-color: gainsboro;
+        padding: 20px;
+    }
+    .box1{
+        text-align: center;
+        color: red;
+    }
+    .box2{
+        text-align: center;
+        color: red;
+    }
+    .box3{
+        text-align: center;
+        color: red;
+    }
+    .box5{
+        width: 200px;
+        margin-left: 45%;
+        margin-top: 35px;
+    }
+    .box10{
+    border: 3px solid red;
+    border-radius: 7px;
+    width: 150px;
+    height:250px;
+ 
+    margin-right: 10px;
+    left: 5px;
+    }
+    .update{
+        font-size: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    .trip-second{
+        margin-left: 50%;
+    
+    }
+    .list-one{
+        border: 3px solid red;
+        border-radius: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        margin-right: 80%;
+        
+    }
+    .list-container{
+        filter: blur(9px);
+    
+    }
+  
+    .paris-container{
+        position: relative;
+    }
+    .box6{
+        position:absolute;
+        width: 155px;
+        bottom: 5px;
+    }
+
+    
+}
+
+
+
+
+
+
+/* iPad */
+@media screen and(min-width:768px) and (max-width:1024px) {
+    .first-container{
+        /* border:5px solid red; */
+        height: 100px;
+        /* margin-bottom: 50px; */
+        
+    }
+    .heading{
+        display: inline-block;
+    }
+    .first-left{
+      float: left;
+      margin-top: 190px;
+      margin-left: 140px;
+      font-size: 50px;
+    
+    }
+    .first-right{
+      margin-top: 190px;
+      margin-right: 160px;
+      float: right;
+      font-size: 30px;
+    
+    }
+    .parent-container{
+        display: flex;
+        justify-content: space-evenly;
+        height: 300px;
+        margin-top: 180px;
+    
+        
+    }
+    .box{
+        border: 3px solid red;
+        border-radius: 7px;
+        width: 200px;
+        height:250px;
+    }
+    .box1{
+        text-align: center;
+        color: red;
+    }
+    .box2{
+        text-align: center;
+        color: red;
+    }
+    .box3{
+        text-align: center;
+        color: red;
+    }
+    .box5{
+        width: 200px;
+        margin-left: 45%;
+        margin-top: 35px;
+    }
+    .trip-second{
+        margin-left: 50%;
+    
+    }
+    .list-one{
+        border: 3px solid red;
+        border-radius: 10px;
+        z-index: 10;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        width: 40%;
+        padding: 20px;
+        text-align: center;
+        margin-right: 80%;
+        
+    }
+    .list-container{
+        filter: blur(9px);
+    
+    }
+    .trip-third{
+        color:black; 
+        text-align: center; 
+        font-size: 45px;
+        position:relative;
+        max-width: 950px;
+    }
+    .trip-third:before{
+        content: "";
+        display:block;
+        width:90px;
+        height:3px;
+        position:absolute;
+        left: 150px;
+        top:50%;
+        background: #000;
+    }
+    .trip-third:after{
+        content: "";
+        display:block;
+        width:120px;
+        height:3px;
+        position:absolute;
+        right: 120px;
+        top:50%;
+        background: black;
+    
+    
+    }
+    .paris-container{
+        position: relative;
+    }
+    .box6{
+        position:absolute;
+        width: 155px;
+        bottom: 5px;
+    }
+    
+}
